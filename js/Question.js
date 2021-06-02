@@ -32,7 +32,8 @@ class Question {
     textStyle(BOLD);
     fill("#000000");
     this.title.html("MyQuiz Game");
-    this.title.style();
+    this.title.style.fontFamily=this.font;
+    this.title.fontWeight = "light";
     this.title.position(312, 60);
 
     this.question.html("Question:What starts and ends with the letter ‘E’, but has only one letter?");
