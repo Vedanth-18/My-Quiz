@@ -83,6 +83,16 @@ class Quiz {
            text("The correct answer is: Option 2: Envelope", 150, 280);
            pop();
         }
+        if(correctAnswer !== allContestants[plr].answer){
+          push()
+           fill("RED");
+           textSize(20);
+           textStyle(BOLD);
+           textFont(this.font);
+           text("The wrong answer is given by: " + allContestants[plr].name, 150, 300);
+           text("The correct answer is: Option 2: Envelope", 150, 320);
+           pop();
+        }
         // else if(correctAnswer !== allContestants[plr].answer){
         //    //var notCorrect = allContestants[plr].name;
         //    //console.log("notCorrect: " + notCorrect);

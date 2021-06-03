@@ -28,7 +28,6 @@ class Question {
 
   display(){
     push();
-    textFont("Arial");
     textStyle(BOLD);
     fill("#000000");
     this.title.html("MyQuiz Game");
