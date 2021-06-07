@@ -83,7 +83,7 @@ class Quiz {
            text("The correct answer is: Option 2: Envelope", 150, 280);
            pop();
         }
-        if(correctAnswer !== allContestants[plr].answer){
+        if(correctAnswer !== allContestants[plr].answer && allContestants!=undefined){
           push()
            fill("RED");
            textSize(20);
